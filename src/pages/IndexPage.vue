@@ -9,8 +9,8 @@
         </p>
       </q-card-section>
       <q-card-actions  align="center">
-        <q-btn class="q-ml-mdb" label="Order Now" to="#PRODUCTS" style="background-color: #CB863F; width: 150px;" />
-        <q-btn outline  label="Learn About Us" to="#ABOUT" class="q-ml-md" style="color: #6C4620; width: 150px;" />
+        <q-btn class="q-ml-mdb" label="Order Now" to="#PRODUCTS" style="background-color: #CB863F; width: 150px; font-weight: 600;" />
+        <q-btn outline  label="Learn About Us" to="#ABOUT" class="q-ml-md" style="color: #6C4620; width: 150px; font-weight: 600;" />
       </q-card-actions>
       </div>
       <q-img src="public/icons/images/cup.png" class="pic"/>
@@ -29,7 +29,7 @@
       <div class="text-subtitle2  text-orange-7">${{ product.price }}</div>
     </q-card-section>
     <q-card-actions align="left">
-      <q-btn icon="add_shopping_cart"  label="Add to Cart" class="addC" style="background-color: #CB863F;"/>
+      <q-btn icon="add_shopping_cart"  label="Add to Cart" class="addC" style="background-color: #CB863F; font-weight: 600;"/>
     </q-card-actions>
   </q-card>
   <!-- <q-space></q-space> -->
@@ -43,7 +43,7 @@
       <div class="text-subtitle2 text-orange-7">${{ product.price }}</div>
     </q-card-section>
     <q-card-actions align="left">
-      <q-btn icon="add_shopping_cart"  label="Add to Cart"  class="addC" style="background-color: #CB863F;"/>
+      <q-btn icon="add_shopping_cart"  label="Add to Cart"  class="addC" style="background-color: #CB863F; font-weight: 600;"/>
     </q-card-actions>
   </q-card>
 </div>
@@ -105,7 +105,6 @@ body {
 }
 
 .My-card {
-  /* width: 260px; */
   border-radius: 8px;
   background-color: var(--bg-gray);
   color: var(--white);
@@ -118,7 +117,7 @@ body {
 }
 
 .rounded-borders {
-  border-radius: 50%;
+  border-radius: 8px;
   border: 3px solid var(--border-color);
   width: 260px;
   height: 260px;
